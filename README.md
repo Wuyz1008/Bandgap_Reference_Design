@@ -14,3 +14,13 @@
 ## Abstract  
 
 ## 1. Introduction  
+
+## 2. Design Specification  
+
+### Specification  
+
+### Corner Setting  
+
+## 3. Circuit Architecture and Implementation  
+
+
