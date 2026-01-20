@@ -1,4 +1,4 @@
-# HIGH PSRR BANDGAP REFERENCE (BGR) DESIGN
+# A HIGH-PRECISION CURRENT-MODE BANDGAP REFERENCE (BGR) DESIGN
 **Authors:** Nguyen Quoc Huy    
 
 **Organization:** Hanoi University of Industry  
