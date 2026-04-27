@@ -12,7 +12,7 @@
 **Project Duration:** February, 2026 to March, 2026  
 
 ## Abstract  
-
+This project presents the design and vertification of high-performance CMOS Bandgap Reference (BGR) aimed at providing a stable 1.2V output. By intergrating advanced higher-order curvature correction, the architecture achieves a superior temperature coefficient, ensuring high precision across varying thermal conditions.
 ## 1. Introduction  
 
 ## 2. Design Specification  
