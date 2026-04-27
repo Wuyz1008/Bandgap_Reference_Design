@@ -38,4 +38,4 @@ Bandgap Reference (BGR) circuits are critical modules in most integrated circuit
 | **CAP**       | SS FF         |                |           |
 | **MONTE CARLO** | Process + Mismatch |         |           |
 ## 3. Circuit Architecture and Implementation  
-![Block Diagram](Figures/BlockDia.png)
+
