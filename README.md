@@ -24,8 +24,8 @@ Bandgap Reference (BGR) circuits are critical modules in most integrated circuit
 | VDD         | 1.8    | 2     | 2.2    | V      |                                                                                     |
 | Temp        | -40    | 25    | 125    | C      |                                                                                     |
 | VBG         | 1.188  | 1.2   | 1.212  | V      |                                                                                     |
-| Temp Co.    |        |       | 10     | ppm    |                                                                                     |
-| Iq          |        | 100u  | 150u   | A      |                                                                                     |
+| Temp Co.    |        |       | 20     | ppm/°C |                                                                                     |
+| Iq          |        | 30u   | 50u    | A      |                                                                                     |
 | PSR (DC)    |        |       | -60    | dB     |                                                                                     |
 | PSR (10k)   |        |       | -40    | dB     |                                                                                     |
 | Function    |        |       |        |        | Startup, Curvature compensation, Trimming for process variation                     |
