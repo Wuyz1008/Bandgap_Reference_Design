@@ -33,8 +33,8 @@ Bandgap Reference (BGR) circuits are critical modules in most integrated circuit
 |               | P             | V              | T         |
 |---------------|---------------|----------------|-----------|
 | **MOS**       | SS SF FS FF   |                |           |
-| **BJT**       | SS FF         | 2V +/-10%      | -20 125   |
-| **RES**       | SS FF         | 2V +/-10%      | -20 125   |
+| **BJT**       | SS FF         | 2V +/-10%      | -40 125   |
+| **RES**       | SS FF         | 2V +/-10%      | -40 125   |
 | **CAP**       | SS FF         |                |           |
 | **MONTE CARLO** | Process + Mismatch |         |           |
 ## 3. Circuit Architecture and Implementation  
