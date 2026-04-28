@@ -100,3 +100,14 @@ Where $\mathrm{V_{G0}(T_r)}$ is the bandgap voltage of silicon at the reference 
 ![Calculate slope VBE and DeltaVBE](Figures/Schematic_VBE_DeltaVBE.png)  
 **Figure 4: Calculate Slope of $\mathrm{V_{BE}}$ and $\Delta \mathrm{V_{BE}}$.**  
 
+![Slope VBE and DeltaVBE](Figures/Slope_VBe_DeltaVBE.png)  
+**Figure 5: Slope of Slope of $\mathrm{V_{BE}}$ and $\Delta \mathrm{V_{BE}}$**   
+
+$$
+\mathrm{V_{BE}} = 589.687mV; \quad \Delta \mathrm{V_{BE}} = 53.766mV; \quad \mathrm{K}.\Delta \mathrm{V_{BE}} + \mathrm{V_{BE}} = 1.2V; \quad \mathrm{K} \approx 11.35
+$$  
+
+The first two parts of the equation show the main downward slope.  
+
+However, the last past, $\mathrm{(n - \delta) \frac{kT}{q} \ln \left( \frac{T}{T_r} \right)}$, is higher-order nonlinear temperature. Even when we cancel out the linear parts in the BGR, this nonlinear part stays behind. This creats a curvature in the graph of $\mathrm{V_{REF}}$ against temperature, which stops the circuit from being perfectly stable over a wide heat range.  
+### 3.2.3. Implementation of Curvature Correction
