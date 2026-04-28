@@ -87,6 +87,8 @@ $$
 \mathrm{V_{REF} = I_{REF} R_6 = \left( \frac{\Delta V_{EB}}{R_0} + \frac{V_{EB1}}{R_{1,2}} \right) R_6}
 $$  
 
+By choosing the resistor ratio appriately, the negative temperature coefficient of $\mathrm{V_{BE}}$ can be cancelled by the positive coefficient of $\mathrm{V_T ln(N)}$, achieving a first-order ZTC reference.
+### 3.2.2. The Origin of Curvature
 An accurate analysis of the temperature effects on $\mathrm{V_{BE}}$-T characteristics can be expressed as  
 
 $$
@@ -94,4 +96,7 @@ $$
 $$  
 
 Where $\mathrm{V_{G0}(T_r)}$ is the bandgap voltage of silicon at the reference temperature $\mathrm{T_r}$, n is a temperature-independent and process-dependent constant around 4, and $\mathrm{\delta}$ is a factor of the temperature dependent on the collector current, which is equal to 1 if the current in the BJT is PTAT and becomes 0 when the current is temperature-independent. $\mathrm{V_{T}}$ is the thermal voltage, k is Boltzmann's constant, q is the electric charge and n is the ratio of emitter areas.  
-### 3.2.2. Calculate Slope of $\mathrm{V_{BE}}$ and $\Delta \mathrm{V_{BE}}$  
+
+![Calculate slope VBE and DeltaVBE](Figures/Schematic_VBE_DeltaVBE.png)  
+**Figure 4: Calculate Slope of $\mathrm{V_{BE}}$ and $\Delta \mathrm{V_{BE}}$.**  
+
