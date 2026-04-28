@@ -53,3 +53,21 @@ To further eliminate high-order temperature terms, a BGR circuit incorporating c
 **Figure 1(b): Overall BGR Block Diagram showing key functional blocks.**  
 
 ### 3.1. Error Amplifier  
+Since the base-emitter voltage (VBE) typically operates around 0.7V, a PMOS-input differential pair is preferred to accommodate this low common-mode input level. The primary role of this amplifier is to equalize the currents in the two core branches containing Q0 and Q2, there by ensuring precision. Consequently, a PMOS-input folded-cascode amplifier was selected, as depicted in Figure 2.  
+
+![Error Amplifier](Figures/Error_Amplifier.png)  
+**Figure 2: Error Amplifier schematic: PMOS-input Folded Cascode Amplifier**  
+
+The folded-cascode topology provides high gain and good PSRR in a single stage, as summarized in the comparison table (Figure 3).  
+
+
+
+
+
+
+
+
+
+
+
+
