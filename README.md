@@ -43,5 +43,7 @@ The target pergormance metrics for the Bandgap Reference are ourlined in Table 1
 
 **Table 2: Corner Setting across Process, Voltage and Temperature (PVT).**
 
-## 3. Circuit Architecture and Implementation  
-![Block Diagram](Figures/BlockDiagram.png)
+## 3. Circuit Architecture and Implementation
+An optimized architecture, integrating multiple high-performance techniques, was chosen to fulfill the demanding technical requirements. Figure 1 depicts the fundamental block diagram of this proposed BGR.  
+![Block Diagram](Figures/BlockDiagram.png)  
+**Figure 1(a): Overall BGR Block Diagram showing key functional blocks**
