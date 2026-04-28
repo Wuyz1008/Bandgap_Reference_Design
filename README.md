@@ -14,8 +14,8 @@
 ## Abstract  
 This project presents the design and vertification of high-performance CMOS Bandgap Reference (BGR) aimed at providing a stable 1.2V output. By intergrating advanced higher-order curvature correction, the architecture achieves a superior temperature coefficient, ensuring high precision across varying thermal conditions.
 ## 1. Introduction  
-Bandgap Reference (BGR) circuits are critical modules in most integrated circuit systems and are widely used in anaalog circuits, digital circuits, and mixed-signal circuits such as memory circuits, A/D converters, and low dropout linear regulator. BGR circuits provide temperature-independent voltage or currents for the system-on-a-chip (SoC), and their performance determines the quality of the entire SoC. With the development of the CMOS process, the feature size of integrated circuits continues to decrease, and the operation voltage of the electronic system is becoming increasingly lower. Low-voltage and high-presicion BGR circuit have received widespread attention.  
-
+Bandgap Reference (BGR) circuits are critical modules in most integrated circuit systems and are widely used in analog circuits, digital circuits, and mixed-signal circuits such as memory circuits, A/D converters, and low dropout linear regulators. BGR circuits provide temperature-independent voltage or currents for the system-on-a-chip (SoC), and their performance determines the quality of the entire SoC. With the development of the CMOS process, the feature size of integrated circuits continues to decrease, and the operation voltage of the electronic system is becoming increasingly lower. Low-voltage and high-precision BGR circuit have received widespread attention.  
+The operational framework of a BGR is based on merging two distinct voltage characterized by contrasting thermal behaviors. A voltage linked to the base-emitter voltage (VBE) of a bipolar junction transistor (BJT), which displays a Complementary to Absolute Temperature (CTAT) coefficient, and a derived from the VBE variance (∆VBE) between two BJTs running at different current densities, exhibiting a Proportional to Absolute Temperature (PTAT) coefficient. By mathematically balancing these two components, a Zero-Temperature-Coefficient (ZTC) voltage can be established at a targeted temperature point. Furthermore, this work proposes an optimized BGR architecture specifically aimed at suppressing high order nonlinear temperature components to achieve superior precision.
 ## 2. Design Specification  
 
 ### Specification  
@@ -25,7 +25,7 @@ Bandgap Reference (BGR) circuits are critical modules in most integrated circuit
 | Temp        | -40    | 25    | 125    | C      |                                                                                     |
 | VBG         | 1.188  | 1.2   | 1.212  | V      |                                                                                     |
 | Temp Co.    |        |       | 20     | ppm/°C |                                                                                     |
-| Iq          |        | 30u   | 50u    | A      |                                                                                     |
+| Iq          |        | 50u   | 100u   | A      |                                                                                     |
 | PSR (DC)    |        |       | -60    | dB     |                                                                                     |
 | PSR (10k)   |        |       | -40    | dB     |                                                                                     |
 | Function    |        |       |        |        | Startup, Curvature compensation, Trimming for process variation                     |
