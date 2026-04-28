@@ -28,7 +28,8 @@ The target pergormance metrics for the Bandgap Reference are ourlined in Table 1
 | Iq          |        | 50u   | 100u   | A      |                                                                                     |
 | PSR (DC)    |        |       | -60    | dB     |                                                                                     |
 | PSR (10k)   |        |       | -40    | dB     |                                                                                     |
-| Function    |        |       |        |        | Startup, Curvature compensation, Trimming for process variation                     |
+| Function    |        |       |        |        | Startup, Curvature compensation, Trimming for process variation                     |  
+## Table 1: Design Specification for the Bandgap Reference.  
 ### Corner Setting  
 |               | P             | V              | T         |
 |---------------|---------------|----------------|-----------|
@@ -37,5 +38,6 @@ The target pergormance metrics for the Bandgap Reference are ourlined in Table 1
 | **RES**       | SS FF         | 2V +/-10%      | -40 125   |
 | **CAP**       | SS FF         |                |           |
 | **MONTE CARLO** | Process + Mismatch |         |           |
+## Table 2: Corner Setting across Process, Voltage and Temperature (PVT).  
 ## 3. Circuit Architecture and Implementation  
 ![Block Diagram](Figures/BlockDiagram.png)
